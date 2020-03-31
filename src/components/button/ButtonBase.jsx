@@ -1,8 +1,8 @@
 import React from 'react'
-import './Button.css' 
+import './ButtonBase.css'
 
 export default props =>
-    <button 
+    <button
         className={`
             button
             ${props.operation ? 'operation' : ''}
